@@ -1649,10 +1649,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm: {
 			srcs: ["proprietary/vendor/lib/libVDSuperPhotoAPI.so"],
-			shared_libs: ["liblog", "libcdsprpc", "libm", "libdl", "libc", ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -14382,10 +14382,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm: {
 			srcs: ["proprietary/vendor/lib/libmmcamera2_cpp_module.so"],
-			shared_libs: ["libcutils", "libmmcamera2_mct", "libmmcamera2_pp_buf_mgr", "libmmcamera_dbg", "liblog", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -14416,10 +14416,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm: {
 			srcs: ["proprietary/vendor/lib/libmmcamera2_iface_modules.so"],
-			shared_libs: ["liblog", "libcutils", "libmmcamera2_mct", "libmmcamera2_isp_modules", "libmmcamera_dbg", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -14433,10 +14433,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm: {
 			srcs: ["proprietary/vendor/lib/libmmcamera2_imglib_modules.so"],
-			shared_libs: ["liblog", "libcutils", "libmmcamera2_mct", "libmmcamera_imglib", "libmmcamera_dbg", "libcdsprpc", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -14450,10 +14450,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm: {
 			srcs: ["proprietary/vendor/lib/libmmcamera2_is.so"],
-			shared_libs: ["libcutils", "libmmcamera_dbg", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -14467,10 +14467,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm: {
 			srcs: ["proprietary/vendor/lib/libmmcamera2_isp_modules.so"],
-			shared_libs: ["libcutils", "libmmcamera2_mct", "libmmcamera_dbg", "liblog", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -14484,10 +14484,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm: {
 			srcs: ["proprietary/vendor/lib/libmmcamera2_mct.so"],
-			shared_libs: ["liblog", "libcutils", "libmmcamera_dbg", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -14552,10 +14552,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm: {
 			srcs: ["proprietary/vendor/lib/libmmcamera2_q3a_core.so"],
-			shared_libs: ["libcutils", "libmmcamera2_stats_algorithm", "libmmcamera2_stats_lib", "libmmcamera_dbg", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -14586,10 +14586,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm: {
 			srcs: ["proprietary/vendor/lib/libmmcamera2_stats_algorithm.so"],
-			shared_libs: ["libcutils", "libmmcamera_dbg", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -14603,10 +14603,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm: {
 			srcs: ["proprietary/vendor/lib/libmmcamera2_stats_lib.so"],
-			shared_libs: ["libcutils", "liblog", "libmmcamera_dbg", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -14620,10 +14620,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm: {
 			srcs: ["proprietary/vendor/lib/libmmcamera2_stats_modules.so"],
-			shared_libs: ["libcutils", "libmmcamera2_mct", "libmmcamera2_stats_lib", "libmmcamera2_stats_algorithm", "libxml2", "libutils", "libmmcamera_dbg", "liblog", "libutils", "libcutils", "libvidhance", "libvidhance_gyro", "libhidlbase", "libhidltransport", "android.frameworks.sensorservice@1.0", "libmmcamera2_is", "libsensor1", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -14637,10 +14637,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm: {
 			srcs: ["proprietary/vendor/lib/libmmcamera_arcsoftbokeh_lib.so"],
-			shared_libs: ["libcutils", "liblog", "libmmcamera_dbg", "libmmcamera_imglib", "libmpbase", "libarcsoft_dualcam_refocus", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -16167,10 +16167,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm: {
 			srcs: ["proprietary/vendor/lib/libmmcamera_ppeiscore.so"],
-			shared_libs: ["libcutils", "liblog", "libGLESv2_adreno", "libEGL", "libGLESv2", "libhardware", "libqdMetaData", "libutils", "libmmcamera_dbg", "libmmcamera_imglib", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "32",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
