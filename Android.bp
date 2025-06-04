@@ -14,6 +14,7 @@ soong_namespace {
 		"vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um",
 		"vendor/qcom/opensource/dataservices",
 		"vendor/qcom/opensource/display",
+		"hardware/qcom/wlan/wcn6740",
 	],
 }
 
