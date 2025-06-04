@@ -200,6 +200,7 @@ PRODUCT_PACKAGES += \
     libc2d30_bltlib \
     libcdsp_default_listener \
     libcdsprpc \
+    libcpion \
     libdiag \
     libdsutils \
     libfastcvadsp_stub \
@@ -1194,6 +1195,7 @@ PRODUCT_PACKAGES += \
     libgf_ca \
     libgf_hal \
     libgoodixhwfingerprint \
+    libhdcpsrm \
     libizat_client_api \
     libizat_core \
     liblbs_core \
