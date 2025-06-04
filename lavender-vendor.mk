@@ -217,7 +217,6 @@ PRODUCT_PACKAGES += \
     libmdsprpc \
     libminkdescriptor \
     libmmosal_vendor \
-    liboemcrypto \
     libqcbor \
     libqcci_legacy \
     libqdi \
@@ -1212,6 +1211,7 @@ PRODUCT_PACKAGES += \
     libnetmgr_rmnet_ext \
     libnlnetmgr \
     liboemaids_vendor \
+    liboemcrypto \
     libpdmapper \
     libpdnotifier \
     libperipheral_client \
