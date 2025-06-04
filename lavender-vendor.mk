@@ -218,6 +218,7 @@ PRODUCT_PACKAGES += \
     libminkdescriptor \
     libmmosal_vendor \
     liboemcrypto \
+    libqcbor \
     libqcci_legacy \
     libqdi \
     libqdp \
