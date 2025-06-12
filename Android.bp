@@ -17802,7 +17802,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libmlipay.so"],
-			shared_libs: ["vendor.xiaomi.hardware.mlipay@1.0", "liblog", "libcutils", "libutils", "libQSEEComAPI", "libhidlbase", "libhidltransport", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["vendor.xiaomi.hardware.mlipay@1.0", "vendor.xiaomi.hardware.mtdservice@1.0", "liblog", "libcutils", "libutils", "libQSEEComAPI", "libhidlbase", "libhidltransport", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
@@ -17819,7 +17819,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libmlipay@1.1.so"],
-			shared_libs: ["vendor.xiaomi.hardware.mlipay@1.0", "vendor.xiaomi.hardware.mlipay@1.1", "liblog", "libcutils", "libutils", "libQSEEComAPI", "libhidlbase", "libhidltransport", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["vendor.xiaomi.hardware.mlipay@1.0", "vendor.xiaomi.hardware.mlipay@1.1", "vendor.xiaomi.hardware.mtdservice@1.0", "liblog", "libcutils", "libutils", "libQSEEComAPI", "libhidlbase", "libhidltransport", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
@@ -20614,7 +20614,7 @@ cc_prebuilt_binary {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/bin/mlipayd@1.1"],
-			shared_libs: ["vendor.xiaomi.hardware.mlipay@1.0", "vendor.xiaomi.hardware.mlipay@1.1", "liblog", "libcutils", "libutils", "libQSEEComAPI", "libhidlbase", "libhidltransport", "libmlipay@1.1", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["vendor.xiaomi.hardware.mlipay@1.0", "vendor.xiaomi.hardware.mlipay@1.1", "vendor.xiaomi.hardware.mtdservice@1.0", "liblog", "libcutils", "libutils", "libQSEEComAPI", "libhidlbase", "libhidltransport", "libmlipay@1.1", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
