@@ -243,6 +243,7 @@ PRODUCT_PACKAGES += \
     libsensor_reg \
     libsysmon_cdsp_skel \
     libthermalclient \
+    libtinyxml \
     libtinyxml2_1 \
     sensors.ssc \
     vendor.display.color@1.0 \
