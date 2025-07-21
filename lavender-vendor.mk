@@ -194,12 +194,20 @@ PRODUCT_PACKAGES += \
     vulkan.adreno \
     libC2D2 \
     libCB \
+    libFlacSwDec \
     libOpenCL \
     libQSEEComAPI \
-    libVkLayer_q3dtools \
+    libacdb-fts \
+    libacdbloader \
+    libacdbrtac \
+    libadiertac \
     libadreno_utils \
     libadsp_default_listener \
     libadsprpc \
+    libaudcal \
+    libaudioalsa \
+    libaudioconfigstore \
+    libaudioparsers \
     libc2d30_bltlib \
     libcpion \
     libdiag \
@@ -234,6 +242,7 @@ PRODUCT_PACKAGES += \
     libqmi_legacy \
     libqmiservices \
     libqseed3 \
+    libqtigef \
     libqtikeymaster4 \
     librs_adreno \
     libsdedrm \
@@ -260,15 +269,11 @@ PRODUCT_PACKAGES += \
     libVDClearShot \
     libVDSuperPhotoAPI \
     lib_lowlight \
-    libacdb-fts \
-    libacdbloader \
-    libacdbrtac \
     libactuator_lavender_imx486_ofilm_i_bu64982 \
     libactuator_lavender_imx486_ofilm_i_dw9714 \
     libactuator_lavender_ov12a10_sunny_ii_dw9714 \
     libactuator_lavender_s5kgm1_ofilm_i_dw9800 \
     libactuator_lavender_s5kgm1_sunny_ii_dw9800 \
-    libadiertac \
     libadm \
     libadpcmdec \
     libadsp_hvx_callback_skel \
@@ -276,7 +281,6 @@ PRODUCT_PACKAGES += \
     libarcsoft_dualcam_refocus \
     libarcsoft_high_dynamic_range \
     libarcsoft_supernight \
-    libaudcal \
     libc++_shared \
     libcamera_scene \
     libchromatix_csidtg_common \
@@ -994,6 +998,7 @@ PRODUCT_PACKAGES += \
     libchromatix_lavender_s5kgm1_sunny_india_ii_zsl_preview_3a_sn \
     libchromatix_lavender_s5kgm1_sunny_india_ii_zsl_video_3a \
     libdepthmapwrapper \
+    libdrc \
     libdsd2pcm \
     libflash_pmic \
     libgcs-calwrapper \
@@ -1127,9 +1132,9 @@ PRODUCT_PACKAGES += \
     libois_lc898122 \
     libqomx_jpegenc \
     libqomx_jpegenc_pipe \
-    libqtigef \
     libremosaic_daemon \
     libsmwrapper \
+    libsurround_3mic_proc \
     libsymphony-cpu \
     libsymphonypower \
     libts_detected_face_hal \
@@ -1137,10 +1142,6 @@ PRODUCT_PACKAGES += \
     libvideoutils \
     libvidhance \
     libvidhance_gyro \
-    libasphere \
-    libqcbassboost \
-    libqcreverb \
-    libqcvirt \
     com.qualcomm.qti.dpm.api@1.0_vendor \
     com.qualcomm.qti.imscmservice@1.0 \
     com.qualcomm.qti.imscmservice@2.0 \
@@ -1180,6 +1181,7 @@ PRODUCT_PACKAGES += \
     libGPreqcancel_svc \
     libSecureUILib \
     libStDrvInt \
+    libVkLayer_q3dtools \
     libbtnv \
     libcne \
     libcneapiclient \
@@ -1373,6 +1375,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.gnss@3.0-service.xml \
     adpl \
     adsprpcd \
+    audioflacapp \
     cnd \
     cnss-daemon \
     dpmQmiMgr \
