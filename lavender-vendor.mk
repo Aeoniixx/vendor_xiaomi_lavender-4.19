@@ -282,6 +282,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.bluetooth_sar@1.1 \
     vendor.qti.hardware.dsp@1.0 \
     vendor.qti.hardware.fingerprint@1.0 \
+    vendor.qti.hardware.fm@1.0 \
     vendor.qti.hardware.mwqemadapter@1.0 \
     libSNPE \
     libSonyIMX376C3RmscLibrary \
@@ -1292,7 +1293,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.data.iwlan@1.0 \
     vendor.qti.hardware.data.latency@1.0 \
     vendor.qti.hardware.data.qmi@1.0 \
-    vendor.qti.hardware.fm@1.0_vendor \
     vendor.qti.hardware.radio.am@1.0 \
     vendor.qti.hardware.radio.ims@1.0 \
     vendor.qti.hardware.radio.ims@1.1 \
@@ -1357,18 +1357,15 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.ListenSoundModel@1.0 \
     libmmparser_lite \
     com.qualcomm.qti.dpm.api@1.0 \
-    fm_helium \
     libdiag_system \
     libdpmctmgr \
     libdpmfdmgr \
     libdpmframework \
     libdpmtcm \
-    libfm-hci \
     libimscamera_jni \
     libimsmedia_jni \
     libqxrsplitauxservice.qti \
     vendor.qti.diaghal@1.0 \
-    vendor.qti.hardware.fm@1.0 \
     vendor.qti.hardware.qxr-V1-ndk \
     SoterService \
     CneApp \
