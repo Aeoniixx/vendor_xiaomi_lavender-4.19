@@ -205,6 +205,28 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+	name: "android.hardware.bluetooth@1.0-impl-qti",
+	owner: "xiaomi",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so"],
+			shared_libs: ["libbase", "libcutils", "libhidlbase", "liblog", "libutils", "libdiag", "libqmiservices", "libqmi_cci", "libbtnv", "android.hardware.bluetooth@1.0", "libsoc_helper", "libc++", "libc", "libm", "libdl", ],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so"],
+			shared_libs: ["libbase", "libcutils", "libhidlbase", "liblog", "libutils", "libdiag", "libqmiservices", "libqmi_cci", "libbtnv", "android.hardware.bluetooth@1.0", "libsoc_helper", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "both",
+	relative_install_path: "hw",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
 	name: "android.hardware.gatekeeper@1.0-impl-qti",
 	owner: "xiaomi",
 	strip: {
@@ -577,6 +599,27 @@ cc_prebuilt_library_shared {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libaudioparsers.so"],
 			shared_libs: ["libutils", "liblog", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "both",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libbtnv",
+	owner: "xiaomi",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libbtnv.so"],
+			shared_libs: ["libc++", "libc", "libm", "libdl", ],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libbtnv.so"],
+			shared_libs: ["libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "both",
@@ -1502,6 +1545,27 @@ cc_prebuilt_library_shared {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libsensor_reg.so"],
 			shared_libs: ["libutils", "libcutils", "liblog", "libsensor1", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "both",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libsoc_helper",
+	owner: "xiaomi",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libsoc_helper.so"],
+			shared_libs: ["libcutils", "libc++", "libc", "libm", "libdl", ],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libsoc_helper.so"],
+			shared_libs: ["libcutils", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "both",
@@ -16838,24 +16902,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "android.hardware.bluetooth@1.0-impl-qti",
-	owner: "xiaomi",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so"],
-			shared_libs: ["libbase", "libcutils", "libhidlbase", "liblog", "libutils", "libdiag", "libqmiservices", "libqmi_cci", "libbtnv", "android.hardware.bluetooth@1.0", "libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "64",
-	relative_install_path: "hw",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "com.dsi.ant@1.0-impl",
 	owner: "xiaomi",
 	strip: {
@@ -17370,23 +17416,6 @@ cc_prebuilt_library_shared {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libVkLayer_q3dtools.so"],
 			shared_libs: ["liblog", "libz", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "64",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libbtnv",
-	owner: "xiaomi",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libbtnv.so"],
-			shared_libs: ["libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",

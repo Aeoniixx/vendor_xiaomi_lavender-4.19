@@ -190,6 +190,7 @@ PRODUCT_PACKAGES += \
     libq3dtools_adreno \
     libq3dtools_esx \
     activity_recognition.sdm660 \
+    android.hardware.bluetooth@1.0-impl-qti \
     android.hardware.gatekeeper@1.0-impl-qti \
     vulkan.adreno \
     libC2D2 \
@@ -208,6 +209,7 @@ PRODUCT_PACKAGES += \
     libaudioalsa \
     libaudioconfigstore \
     libaudioparsers \
+    libbtnv \
     libc2d30_bltlib \
     libcpion \
     libdiag \
@@ -252,6 +254,7 @@ PRODUCT_PACKAGES += \
     libsdsprpc \
     libsensor1 \
     libsensor_reg \
+    libsoc_helper \
     libthermalclient \
     libtinyxml \
     libtinyxml2_1 \
@@ -1151,7 +1154,6 @@ PRODUCT_PACKAGES += \
     com.qualcomm.qti.uceservice@2.1 \
     com.qualcomm.qti.uceservice@2.2 \
     com.qualcomm.qti.uceservice@2.3 \
-    android.hardware.bluetooth@1.0-impl-qti \
     com.dsi.ant@1.0-impl \
     consumerir.lirc.sdm660 \
     consumerir.spi.sdm660 \
@@ -1182,7 +1184,6 @@ PRODUCT_PACKAGES += \
     libSecureUILib \
     libStDrvInt \
     libVkLayer_q3dtools \
-    libbtnv \
     libcne \
     libcneapiclient \
     libcneoplookup \
