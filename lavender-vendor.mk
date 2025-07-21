@@ -105,6 +105,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lavender/proprietary/vendor/etc/init/qcrild.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qcrild.rc \
     vendor/xiaomi/lavender/proprietary/vendor/etc/init/vendor.display.color@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.display.color@1.0-service.rc \
     vendor/xiaomi/lavender/proprietary/vendor/etc/init/vendor.qti.adsprpc-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.adsprpc-service.rc \
+    vendor/xiaomi/lavender/proprietary/vendor/etc/init/vendor.qti.cdsprpc-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.cdsprpc-service.rc \
     vendor/xiaomi/lavender/proprietary/vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.alarm@1.0-service.rc \
     vendor/xiaomi/lavender/proprietary/vendor/etc/init/vendor.qti.hardware.dsp@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.dsp@1.0-service.rc \
     vendor/xiaomi/lavender/proprietary/vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.soter@1.0-service.rc \
@@ -221,11 +222,14 @@ PRODUCT_PACKAGES += \
     libbt-hidlclient \
     libbtnv \
     libc2d30_bltlib \
+    libcdsp_default_listener \
+    libcdsprpc \
     libcpion \
     libdiag \
     libdsutils \
     libfastcvadsp_stub \
     libfastcvopt \
+    libfastrpc_utf_stub \
     libgpudataproducer \
     libgsl \
     libhdr_tm \
@@ -265,6 +269,7 @@ PRODUCT_PACKAGES += \
     libsensor1 \
     libsensor_reg \
     libsoc_helper \
+    libsysmon_cdsp_skel \
     libthermalclient \
     libtinyxml \
     libtinyxml2_1 \
@@ -1384,6 +1389,7 @@ PRODUCT_PACKAGES += \
     adpl \
     adsprpcd \
     audioflacapp \
+    cdsprpcd \
     cnd \
     cnss-daemon \
     dpmQmiMgr \
