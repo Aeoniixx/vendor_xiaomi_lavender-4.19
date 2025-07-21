@@ -102,6 +102,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lavender/proprietary/vendor/etc/init/port-bridge.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/port-bridge.rc \
     vendor/xiaomi/lavender/proprietary/vendor/etc/init/qcrild.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qcrild.rc \
     vendor/xiaomi/lavender/proprietary/vendor/etc/init/vendor.display.color@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.display.color@1.0-service.rc \
+    vendor/xiaomi/lavender/proprietary/vendor/etc/init/vendor.qti.adsprpc-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.adsprpc-service.rc \
     vendor/xiaomi/lavender/proprietary/vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.alarm@1.0-service.rc \
     vendor/xiaomi/lavender/proprietary/vendor/etc/init/vendor.qti.hardware.dsp@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.dsp@1.0-service.rc \
     vendor/xiaomi/lavender/proprietary/vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.soter@1.0-service.rc \
@@ -198,8 +199,6 @@ PRODUCT_PACKAGES += \
     libadsp_default_listener \
     libadsprpc \
     libc2d30_bltlib \
-    libcdsp_default_listener \
-    libcdsprpc \
     libcpion \
     libdiag \
     libdsutils \
@@ -217,6 +216,7 @@ PRODUCT_PACKAGES += \
     libmdmdetect \
     libmdsprpc \
     libminkdescriptor \
+    libmmcamera_dbg \
     libmmosal_vendor \
     libqcbor \
     libqcci_legacy \
@@ -241,7 +241,6 @@ PRODUCT_PACKAGES += \
     libsdsprpc \
     libsensor1 \
     libsensor_reg \
-    libsysmon_cdsp_skel \
     libthermalclient \
     libtinyxml \
     libtinyxml2_1 \
@@ -1200,6 +1199,7 @@ PRODUCT_PACKAGES += \
     libizat_client_api \
     libizat_core \
     liblbs_core \
+    libloadalgo_stub \
     libloc_api_v02 \
     liblocationservice \
     liblocationservice_glue \
@@ -1363,7 +1363,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.gnss@3.0-service.xml \
     adpl \
     adsprpcd \
-    cdsprpcd \
     cnd \
     cnss-daemon \
     dpmQmiMgr \
@@ -1383,6 +1382,7 @@ PRODUCT_PACKAGES += \
     imsqmidaemon \
     imsrcsd \
     irsc_util \
+    loadalgo \
     loc_launcher \
     lowi-server \
     mlipayd@1.1 \
