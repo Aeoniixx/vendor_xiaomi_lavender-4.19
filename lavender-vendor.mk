@@ -206,6 +206,7 @@ PRODUCT_PACKAGES += \
     libFlacSwDec \
     libOpenCL \
     libQSEEComAPI \
+    libVkLayer_q3dtools \
     libacdb-fts \
     libacdbloader \
     libacdbrtac \
@@ -1198,7 +1199,6 @@ PRODUCT_PACKAGES += \
     libGPreqcancel_svc \
     libSecureUILib \
     libStDrvInt \
-    libVkLayer_q3dtools \
     libcne \
     libcneapiclient \
     libcneoplookup \
