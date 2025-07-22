@@ -184,6 +184,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libFileMux \
     libOmxMux \
+    libsdm-disp-apis \
     btaudio_offload_if \
     eglSubDriverAndroid \
     libEGL_adreno \
@@ -265,6 +266,7 @@ PRODUCT_PACKAGES += \
     libsdedrm \
     libsdm-color \
     libsdm-diag \
+    libsdm-disp-vndapis \
     libsdmextension \
     libsdsprpc \
     libsensor1 \
@@ -272,7 +274,6 @@ PRODUCT_PACKAGES += \
     libsoc_helper \
     libsysmon_cdsp_skel \
     libthermalclient \
-    libtinyxml \
     libtinyxml2_1 \
     sensors.ssc \
     vendor.display.color@1.0 \
@@ -1253,7 +1254,6 @@ PRODUCT_PACKAGES += \
     libril-qcril-hook-oem \
     librilqmiservices \
     librpmb \
-    libsdm-disp-vndapis \
     libsecureui_svcsock \
     libsettings \
     libslimclient \
