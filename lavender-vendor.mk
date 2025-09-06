@@ -1200,6 +1200,10 @@ PRODUCT_PACKAGES += \
     libGPreqcancel_svc \
     libSecureUILib \
     libStDrvInt \
+    libasn1cper \
+    libasn1crt \
+    libasn1crtx \
+    libcacertclient \
     libcdfw \
     libcdfw_remote_api \
     libcne \
@@ -1221,6 +1225,7 @@ PRODUCT_PACKAGES += \
     libhdcpsrm \
     libizat_client_api \
     libizat_core \
+    libjnihelper \
     liblbs_core \
     libloadalgo_stub \
     libloc_api_v02 \
@@ -1295,6 +1300,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.gnss@4.3-service \
     vendor.qti.gnss@4.3 \
     vendor.qti.hardware.alarm@1.0 \
+    vendor.qti.hardware.cacert@1.0 \
     vendor.qti.hardware.data.cne.internal.api@1.0 \
     vendor.qti.hardware.data.cne.internal.constants@1.0 \
     vendor.qti.hardware.data.cne.internal.server@1.0 \
